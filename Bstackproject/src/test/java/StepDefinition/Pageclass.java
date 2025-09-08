@@ -59,12 +59,12 @@ public class Pageclass {
     
    
     
-    public void login() {
+    public void login(String username1,String password1) {
     	wait.until(ExpectedConditions.elementToBeClickable(signin)).click();
         wait.until(ExpectedConditions.elementToBeClickable(username)).click();
-        wait.until(ExpectedConditions.elementToBeClickable(demouser)).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='" +username1+ "']"))).click();
         wait.until(ExpectedConditions.elementToBeClickable(password)).click();
-        wait.until(ExpectedConditions.elementToBeClickable(passwordText)).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='"password1+"']");).click();
         wait.until(ExpectedConditions.elementToBeClickable(loginBtn)).click();
     }
     
@@ -192,4 +192,5 @@ public class Pageclass {
     public void logout() {
         wait.until(ExpectedConditions.elementToBeClickable(signin)).click();
     }
+
 }
