@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="135.316" tests="16" skipped="0" failures="0" errors="0">
+<testcase classname="Checking user login" name="Successful login" time="9.452">
+<system-out><![CDATA[
+Given Bstack website should be opened in default browser....................passed
+And Click on signin link and add username and password......................passed
+Then click on login button..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Checking favourites Section" name="Adding and removing items as favourites" time="6.339">
+<system-out><![CDATA[
+Given Home page should be opened in default browser.........................passed
+When Click on signlink and signin...........................................passed
+And add an item to favourites...............................................passed
+And check in favourites section.............................................passed
+And click on the logo.......................................................passed
+And remove from favourites..................................................passed
+Then close the driver.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Checking add to cart functionality" name="add to cart" time="8.126">
+<system-out><![CDATA[
+Given Home page in default browser..........................................passed
+When click on sign and signin with details..................................passed
+And Add an item to cart.....................................................passed
+Then close the popup........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Remove from cart" name="Remove from cart" time="7.325">
+<system-out><![CDATA[
+Given Open homepage in default browser......................................passed
+When click on sign in and then login........................................passed
+And add an item to cart.....................................................passed
+And remove the item from cart...............................................passed
+Then close the cart popup...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Checkout functionality" name="checkout" time="8.784">
+<system-out><![CDATA[
+Given open homepage in the default browser window...........................passed
+When click on signin link and then sign in..................................passed
+And add a product to cart and click on checkout.............................passed
+And add all information and click on continue...............................passed
+And click on download pdf...................................................passed
+And click on continue shopping..............................................passed
+Then close browser..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Vendors Selection" name="Vendors selection" time="8.714">
+<system-out><![CDATA[
+Given open home page in defaults browser....................................passed
+When select vendors and deselect vendors....................................passed
+Then close the driveer......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Checking Filters working or not" name="Filters" time="4.191">
+<system-out><![CDATA[
+Given open the homepage in default browser..................................passed
+When selct multiple selections using dropdown...............................passed
+Then close the driver2......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Future" name="search feature - Example #1.1" time="4.679">
+<system-out><![CDATA[
+Given open home page in defaults browser1...................................passed
+When go to Apple and add some text and click on search......................passed
+Then close driver...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Future" name="search feature - Example #1.2" time="5.243">
+<system-out><![CDATA[
+Given open home page in defaults browser1...................................passed
+When go to Google and add some text and click on search.....................passed
+Then close driver...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Future" name="search feature - Example #1.3" time="4.746">
+<system-out><![CDATA[
+Given open home page in defaults browser1...................................passed
+When go to Vivo and add some text and click on search.......................passed
+Then close driver...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Future" name="search feature - Example #1.4" time="5.301">
+<system-out><![CDATA[
+Given open home page in defaults browser1...................................passed
+When go to Oppo and add some text and click on search.......................passed
+Then close driver...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Future" name="search feature - Example #1.5" time="5.221">
+<system-out><![CDATA[
+Given open home page in defaults browser1...................................passed
+When go to Samsung and add some text and click on search....................passed
+Then close driver...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Checking Footer links" name="Footer links" time="5.494">
+<system-out><![CDATA[
+Given open homepage in defalt browser.......................................passed
+When click on the link in footer............................................passed
+Then print message..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Subscribe email" name="subscribe email" time="4.829">
+<system-out><![CDATA[
+Given open homepages in default browser.....................................passed
+When go and enter email in subscribe mail box...............................passed
+Then clos the browser.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Header links" name="header links" time="11.579">
+<system-out><![CDATA[
+Given open website in default browser.......................................passed
+When click on sign and signin...............................................passed
+And navigate to offers......................................................passed
+And navigate to favourites..................................................passed
+And navigate to orders......................................................passed
+Then close the browser4.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Logout Functionality" name="LOGOUT" time="35.036">
+<system-out><![CDATA[
+Given open browser stack website in default browser.........................passed
+When click on signin and then signin........................................passed
+And click on logout.........................................................passed
+Then close the browser8.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
